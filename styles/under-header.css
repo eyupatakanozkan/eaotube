@@ -1,0 +1,33 @@
+.under-header-container{
+  display: flex;
+  position: fixed;
+  top: 56px;
+  left: 100px;
+  z-index: 90;
+  background-color: white;
+  padding: 10px;
+  
+  
+
+}
+.under-header-button{
+  background-color: rgba(0, 0, 0,0.07);
+  color: rgb(15, 15, 15);
+  padding: 8px 12px 8px 12px;
+  border-radius: 7px;
+  font-weight: 700;
+  border: none;
+  margin-right: 14px;
+  white-space: nowrap;
+  transition: background-color 0.6s;
+  cursor: pointer;
+}
+.under-header-button:hover{
+  background-color: rgba(0, 0, 0,0.15);
+}
+
+@media (max-width: 780px){
+  .under-header-container{
+    left: 40px;
+  }
+}

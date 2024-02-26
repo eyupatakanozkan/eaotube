@@ -1,0 +1,25 @@
+body{
+  height: 3000px;
+  font-family: Roboto, Arial;
+  margin: 120px 50px 100px 100px;
+}
+div{
+  padding: 0px;
+  border: none;
+  border-width: 0;
+  margin: 0;
+}
+a, a:visited{
+  text-decoration: none;
+  color:black;
+}
+p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+@media (max-width: 780px){
+  body{
+    margin-left: 40px;
+  }
+}
+
