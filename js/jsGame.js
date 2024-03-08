@@ -14,8 +14,8 @@ document.querySelector('.js-trying').innerHTML= trying;
 function playGame(yourChose) {
 
   if(score.wins === 3 || score.losses===3){
+    alert(`Wins: ${score.wins}, Losses: ${score.losses}, Ties ${score.ties} dali ss çekebilirsin - yeniden oynarsan veya resetlersen aşağıdaki sayı artar- kazanirsan ilk seçim veya sona kalan 3 kişiden 2 kişiyi tercih etme hakki senin olur - vice versa`);
     resetScore();
-    alert(`dali sayfayi komple ss çekip gruba göndermen lazim - yeniden oynarsan veya resetlersen aşağıdaki sayı artar- anlaşılır-kazanirsan ilk seçim veya sona kalan 3 kişiden 2 kişiyi tercih etme hakkı senin olur - vice versa`);
     return;
   }
   
